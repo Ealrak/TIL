@@ -19,3 +19,7 @@
 ### 다른 환경에서 git 이어서 작업하기
 1. 새 폴더 연결하기
 2. `git clone 저장소 주소 붙여넣기`
+3. cd TIL 작성 후 TIL 폴더로 들어가기
+4. 저장 후 git status 후 git add . 까지
+5. git commit -m '메세지' 이후 git push origin main
+6. 다음 날 학원 와서 git pull 그리고 git add . 하면 끝
