@@ -23,3 +23,5 @@
 4. 저장 후 git status 후 git add . 까지
 5. git commit -m '메세지' 이후 git push origin main
 6. 다음 날 학원 와서 git pull '깃허브 주소'
+### 다른 환경에서 git 이어서 작업하기(집)
+* `git pull origin main`집에서 올린 파일 내려받기
