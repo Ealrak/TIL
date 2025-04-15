@@ -1,3 +1,25 @@
-#mobile_wrap {background-color:#A8C4FF;}
-#mobile_wrap img {}
-#mobile_wrap a {}
+#mobile_wrap {
+    background-color:#A8C4FF;
+    width:440px; height:956px;
+    text-align:center;
+}
+#mobile_wrap img {
+    margin-top:264px;
+    margin-bottom:59px;
+}
+#mobile_wrap a {
+    background-color:#fff;
+    color:#000;
+    width:195px; height:39px;
+    /* a태그에 가로세로 크기 입력 시 적용이 안되는 이유는 a가 인라인요소기 때문이다. */
+    /* (위)해결법 : a태그를 CSS속성을 이용하여 크기를 인식하는 block으로 변경 */
+    display:inline-block;
+    line-height:39px;
+    text-align:center;
+    font-family:'Pretendard', sans-serif;
+    font-weight:400;
+    font-size:1rem;
+    letter-spacing:-0.02em;
+    border-radius:35px;
+}
+/* 195x39, 둥글기35px */

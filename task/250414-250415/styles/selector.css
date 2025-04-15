@@ -1,7 +1,7 @@
-.weather {}
-.weather h1 {}
-.weather area {}
-.weather temperature {}
+.weather {background-color: red; color:orange;}
+.weather h1 {background-color:yellow; color:green;}
+.weather area {background-color: blue; color:purple;}
+.weather temperature {background-color:black; color:white}
 .weather p {}
 .weather .p sub_title {}
 .weather humidity {}
