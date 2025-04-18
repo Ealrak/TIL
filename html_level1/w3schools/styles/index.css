@@ -6,15 +6,18 @@
     text-align:center;
 }
 #wrap h1 {
-    padding-top:196px;
-    margin-bottom:374px;
+    /* padding-top:196px; */
+    padding:196px 0 0 0;
+    /* margin-bottom:374px; */
+    margin:0 0 374
 }
 #wrap h1 img {}
 #wrap .btn_wrap {
     width:300px;
     /* 블록의 너비값을 부모보다 작게 설정했을 때 블록을 가운데 정렬하고 싶다면 */
-    margin-left:auto;
-    margin-right:auto;
+    /* margin-left:auto;
+    margin-right:auto; */
+    margin:0 auto;
     text-align:left;/* btn_wrap의 인라인 자식, 자손 왼쪽정렬 */
 }
 #wrap .btn_wrap a {
@@ -31,8 +34,9 @@
     border-radius:20px;
 }
 #wrap .btn_wrap .Sign_up {
-    margin-top:16px;
-    margin-bottom:16px;
+    /* margin-top:16px;
+    margin-bottom:16px; */
+    margin:16px 0;
     height:40px;
     line-height:40px;
     background-color:#D4AF37;
@@ -42,6 +46,5 @@
 #wrap .btn_wrap .pw_search {
     color:#fff;
     font-size:0.75rem;
-    background-color:aqua;
     display:inline;
 }

@@ -1,57 +1,70 @@
 #wrap {
-    width:440px; height:956px;
+    width:440px;
+    height:956px;
     background-color:#344CB7;
-    padding-left:12px;
+    /* padding-left:12px; */
+    padding:0 12px;
+
 }
 #wrap h1 {
     color:#D4AF37;
-    padding-top:158px;
+    /* padding-top:158px; */
+    padding:158px 0 0 0;
     font-size:2.5rem;
     font-weight:800;
-    margin-bottom:30px;
+    /* margin-bottom:30px; */
+    margin: 0 0 30px 0;
 }
 #wrap > p{} /* #wrap 모든 자식 p */
 #wrap h1+p{
-    margin-bottom:87px;
+    /* margin-bottom:87px; */
+    margin: 0 0 87px 0;
     color:#fff;
 } /* #wrap h1옆에 p */
 #wrap #login_frm {}
 #wrap #login_frm h2 {
     font-size:1.375rem;
-    margin-bottom:18px;
+    /* margin-bottom:18px; */
+    margin: 0 0 18px 0;
     font-weight:600;
-    color:#FBE4D6;  
+    color:#FBE4D6;
 }
 #wrap #login_frm p {
     color:#333;
-    margin-bottom:31px;
+    /* margin-bottom:31px; */
+    margin:0 0 31px 0;
 }
 #wrap #login_frm p input {
     width:416px;
     height:44px;
-    border:1px solid #000;
+    border-color:#000;
     border-radius:20px;
-    padding-left:20px;
+    /* padding-left:20px; */
+    padding: 0 0 0 20px;
 }
 #wrap #login_frm p #login {
     width:416px;
     height:44px;
-    border:1px solid #000;
+    border-color:#000;
     background-color:#D4AF37;
     border-radius:20px;
     font-weight:600;
-    margin-bottom:18px;
+    /* margin-bottom:18px; */
+    margin:0 0 18px 0;
 }
 #wrap #login_frm p .google_login {
-    width:416px; height:44px;
-    border-radius:20px; border:1px solid #000;
+    width:416px;
+    height:44px;
+    border-color:#000;
     background-color:#D4AF37;
+    border-radius:20px;
     font-weight:600;
-    margin-bottom:133px;
+/*     margin-bottom:133px; */
     display:block;
     text-align:center;
     line-height:44px;
-    margin-top:-31px;
+/*     margin-top:-31px; */
+    margin:-31px 0 133px;
 }
 #wrap #login_frm+p {
     text-align:center;
