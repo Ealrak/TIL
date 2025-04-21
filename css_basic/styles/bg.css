@@ -1,0 +1,29 @@
+/* bg.css */
+.bg {
+    width:1000px; height:1000px;
+    background-repeat:no-repeat;
+}
+.bg1 {
+    background:yellow url(https://i.pinimg.com/236x/30/85/d0/3085d0380b1596e424baf164d045ebf5.jpg)no-repeat right center;
+    /* background-color:yellow;
+    background-image:url(https://i.pinimg.com/236x/30/85/d0/3085d0380b1596e424baf164d045ebf5.jpg);background-repeat:no-repeat;
+    background-position:left bottom; */
+}
+.bg2 {
+    background:aqua url(../images/test.jpg) no-repeat 0 60%;
+    /* background-color:aqua;
+    background-image:url(../images/test.jpg);
+    background-repeat:repeat-x
+    background-position:0 30%; left top
+    background-size:cover;
+    background-size:75% auto; */
+}
+.bg3 {
+    background:coral url(https://i.pinimg.com/736x/27/db/17/27db17a4b8ffc67d281eede59166272d.jpg) no-repeat fixed center 80%/cover;
+    height:3000px;
+    /* background-color:coral;
+    background-image:url(https://i.pinimg.com/736x/27/db/17/27db17a4b8ffc67d281eede59166272d.jpg);
+    background-position:top left;
+    background-size:1000px; auto;
+    background-attachment:fixed; */
+}
