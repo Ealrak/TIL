@@ -35,17 +35,34 @@
         /* 
         1(주황선) 2(책) 3(문어) 4(벌) 5(꽃병) 6(별1) 7(별2)
         */
-        main #deco .obj1 {z-index:9; right:0;}
-        main #deco .obj2 {z-index:10; top:-100px; left:-50px;}
-        main #deco .obj3 {z-index:9; right:190px; top:0;}
-        main #deco .obj4 {z-index:11; right:0; bottom:0;}
-        main #deco .obj5 {z-index:11; right:150px; bottom:0;}
+        main #deco .obj1 {z-index:9; right:0; animation:rotate 2s linear alternate infinite;}
+        main #deco .obj2 {z-index:10; top:-100px; left:-50px; animation:translate2 0.5s ease;}
+        main #deco .obj3 {z-index:9; right:190px; top:0; animation:translate3 0.5s ease 0.1s both;}
+        main #deco .obj4 {z-index:11; right:0; bottom:0; animation:translate4 0.5s both;}
+        main #deco .obj5 {z-index:11; right:150px; bottom:0; animation: rotate 2s linear alternate infinite;}
         main #deco .obj6 {z-index:12; left:-50px; bottom:100px;}
         main #deco .obj7 {z-index:12; right:50px; top:-30px;}
-        
         /* 애니메이션 */
-        
-
+        @keyframes rotate {
+            from {transform:rotate(0);}
+            to {transform:rotate(10deg);}
+        }
+        @keyframes scale {
+            0% {transform:scale(1);}
+            100% {transform:scale(1.2);}
+        }
+        @keyframes translate2 {/* 책 */
+            from {transform:translateX(100px);}
+            to {transform:translateX(0);}
+        }
+        @keyframes translate3 {
+            from {transform:translateY(0);}
+            to {transform:translateY(-140px);}
+        }
+        @keyframes translate4 {
+            from {transform:translate(0, 0);}
+            to {transform:translate(-350px, 100px) rotate(60deg);}
+        }
     </style>
 </head>
 <body>
