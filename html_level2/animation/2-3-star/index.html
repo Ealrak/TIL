@@ -36,22 +36,32 @@
             display:flex; justify-content:space-between;
             position:absolute; left:0; top:0;
         }
+        .menu_contents .menu1 {display:flex;} /* block으로 쓰면 이미지가 커지고 수정해야함 */
         .menu_contents .menu a {
             margin-right:10px; overflow:hidden; position:relative;
-            border-radius:10px; 
+            border-radius:10px;
+            transition:border-radius 0.5s;
         }
         .menu_contents .menu a:last-child {margin-right:0}
         .menu_contents .menu a img {width:100%;}
         /* 커피정보 */
+        .menu_contents .menu a:hover {
+            border-radius:50%;
+        }
+        .menu_contents .menu a:hover .info {
+            opacity:1;
+        }
         .menu_contents .menu .info {
             background:rgba(0,102,51,0.8); /*#006633 == rgb(0,102,051)*/
-            color:#fff;
             width:100%; height:100%; display:block;
             position:absolute; left:0; top:0;
             text-align:center;
+            transition:opacity 0.3s;
+            opacity:0;
         }
         .menu_contents .menu .info span:first-child {padding-top:40%;}
         .menu_contents .menu .info span {
+            color:#fff;
             display:block; font-weight: 600;
             line-height:1.5;
         }
@@ -89,7 +99,7 @@
             <div class="menu menu1">
                 <a href="#">
                     <img src="images/menu1-1.jpg" alt="">
-                    <span class="info">
+                    <span class="info"> <!-- 초록 배경 -->
                         <span>콜드브루커피</span>
                         <span>50kcal</span>
                     </span>
